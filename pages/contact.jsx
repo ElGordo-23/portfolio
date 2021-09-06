@@ -1,6 +1,6 @@
+import Head from 'next/head';
 import Link from 'next/link';
 import Navbar from '../components/Navbar';
-import Head from 'next/head'
 
 function Contact() {
 	return (
@@ -16,11 +16,12 @@ function Contact() {
 			    <div className="text-wrapper w-full">
 			      <h1 className="title">Contact</h1>
 			      <p className="description">
-			      	Incididunt in cillum magna occaecat nisi qui in exercitation labore anim adipisicing amet irure tempor.
+
 			      </p>
 			      <ul className="contact-links">
-			      	<li className="contact-item">Email: lutfhi@me.com</li>
-			      	<li className="contact-item">Phone: +6212344321007</li>
+			      	<li className="contact-item">Email: felix.lang@mailbox.org</li>
+			      	<li className="contact-item">Phone: +43664 415 75 51</li>
+						{/* Changed info above */}
 			      </ul>
 		      </div>
 	      </div>

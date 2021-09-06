@@ -1,6 +1,6 @@
+import Head from 'next/head';
 import Link from 'next/link';
 import Navbar from '../components/Navbar';
-import Head from 'next/head'
 
 function Home() {
   return (
@@ -14,10 +14,11 @@ function Home() {
       <section className="hero">
         <div className="container">
           <div className="text-wrapper">
-            <h1 className="title">Halo, saya Lutfhi Ramadhan</h1>
-            <p className="description">Saya seorang pekerja lepas pengembang web, fotograper, desainer antarmuka pengguna, dan penulis.</p>
+           {/* Changed title */}
+            <h1 className="title">Hello, I'm Felix</h1>
+            <p className="description"> Let see what we can do with Javascript. </p>
 
-            <Link href="/contact"><a className="cta">Kontak Saya</a></Link>
+            <Link href="/contact"><a className="cta">Contact me</a></Link>
           </div>
 
           <div className="image-wrapper">
