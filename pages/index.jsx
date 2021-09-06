@@ -16,15 +16,15 @@ function Home() {
           <div className="text-wrapper">
            {/* Changed title */}
             <h1 className="title">Hello, I'm Felix</h1>
-            <p className="description"> Let see what we can do with Javascript. </p>
-            <p> Most of the time I look only half as grumpy. ---></p>
+            <p className="description">
+             Most of the time I look only half as grumpy. ---></p>
 
 
             <Link href="/contact"><a className="cta">Contact me</a></Link>
           </div>
 
           <div className="image-wrapper">
-            <img src = "me.jpg" alt = "A picture of me." width="426" height="543" viewBox="0 0 426 543" fill="none" />
+            <img src = "/me.jpg" alt = "A picture of me." width="426" height="543" viewBox="0 0 426 543" fill="none" />
           </div>
           </div>
       </section>

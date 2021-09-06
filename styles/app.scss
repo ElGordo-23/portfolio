@@ -3,6 +3,8 @@
 body {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 18px;
+	background-color: #000;
+	color: white;
 }
 
 a[href] {
@@ -24,11 +26,14 @@ a[href] {
 	}
 
 	.logo {
-		font-size: 28px;
+		font-size: 100px;
+		font-style: italic;
 		text-transform: uppercase;
 		letter-spacing: 3px;
 		font-weight: 600;
 		text-decoration: none;
+		color: white;
+		font-weight: bold;
 	}
 
 	.nav-links {
@@ -43,6 +48,8 @@ a[href] {
 			margin-right: 20px;
 			text-decoration: none;
 			transition: opacity .3s;
+			color: white;
+
 
 			&.active {
 				font-weight: 700;
